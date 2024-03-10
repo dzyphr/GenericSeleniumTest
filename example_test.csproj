@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="30.0.1" />
+    <PackageReference Include="DotNetEnv" Version="2.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Utilities" Version="17.5.33428.366" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NuGet.Build" Version="2.12.0" />
+    <PackageReference Include="Selenium.Support" Version="4.8.2" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.8.2" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="WebDriverManager" Version="2.16.1" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GenericSeleniumTool\GenericSeleniumTool.csproj" />
+  </ItemGroup>
+
+</Project>

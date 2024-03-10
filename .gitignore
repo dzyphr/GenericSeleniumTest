@@ -1,0 +1,6 @@
+*.swo
+*.env
+chromedriver_linux64/
+chromedriver_mac_arm64/
+obj
+bin
